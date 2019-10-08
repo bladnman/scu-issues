@@ -30,7 +30,7 @@ class Contexter extends React.Component {
   render() {
     return (
       <BaseContext.Provider value={{ name: this.state.name }}>
-        <button onClick={this.handlePress}>Change many Things</button>
+        <button onClick={this.handlePress}>Change one Thing</button>
         <Child />
       </BaseContext.Provider>
     );
